@@ -167,4 +167,50 @@ Step 6: Stop
 
 `Binary Birthday:` 1000/ 1100 / 11111001101 
   
-  
+
+ # Print Numbers with different statements
+```javascript        
+FOR      
+ for (var x = 0; i <= 100; x++) {
+  if (x % 2 == 0) console.log(x);
+}
+ 
+                         
+WHILE
+var x = 0;
+while (x <= 100) {
+  if (x % 2 == 0) console.log(x);
+  x++;
+}                                                                                 
+ 
+        
+DO WHILE         
+var x = 0;
+do {
+  if(x % 2 == 0)console.log(x);
+  x++
+} w 
+```        
+
+## Fixed Code Case 1
+```javascript        
+var cond = false;
+
+if (cond) {
+  console.log('The cond variable is true');
+} else {
+  console.log('The cond variable is false');
+}
+```        
+## Fixed Code Case 2
+```javascript       
+        var n = 100;
+
+if (n == 100) {
+  console.log('This is a special number!');
+} else if (n < 1000 && n % 10 == 0) {
+  console.log('This number is almost special');
+} else {
+  console.log('Just a regular number');
+}
+```        
