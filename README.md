@@ -71,3 +71,100 @@ Pros and cons  🧐
 [FreeCodeCamp](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/).
 [Coding Mentors](https://youtu.be/I1f45REi3k4).
 [Business Insider India](https://www.businessinsider.in/difference-between-compiler-and-interpreter/articleshow/69523408.cms).
+
+
+# PseudoCode
+
+Pseudocode is a way of describing a series of steps (an algorithm) that will be followed in order to solve a problem, without the need to develop it using a type of programming language. It is a way in which we can communicate our intentions more naturally. There is no specific standard, one must decide what will be the best way to communicate this algorithm by defining the necessary instructions.
+
+In computer programming terms, an algorithm is a set of well-defined instructions to solve a particular problem. It takes a set of input and produces a desired output. For example,
+
+An algorithm to add two numbers:
+
+Take two number inputs
+
+Add numbers using the + operator
+
+Display the result
+
+`Example in PseudoCode`
+
+Step 1: Start
+
+Step 2: Declare variables num1, num2 and sum.
+
+Step 3: Read values num1 and num2. 
+
+Step 4: Add num1 and num2 and assign the result to sum.
+
+        sum←num1+num2 
+        
+Step 5: Display sum 
+
+Step 6: Stop
+
+
+## Currency Converter in Pseudo Code
+
+`Instructions`
+
+  Starting point: START
+  
+  Input: READ, GET, GET FROM(<URL>)
+  
+  Output: PRINT
+  
+  Math: +, -, *, /
+  
+  Assignation: <--
+                   
+  Initialize: SET, INIT
+                   
+  Add one: INCREMENT
+                   
+  End point: END
+  
+ `Algorithm` 
+ 
+   1. START
+  2. Amount <-- GET
+  3. BTCprice <-- GET FROM(https://www.coinbase.com/es/price/bitcoin)
+  4. Total <-- Amount / BTCprice
+  5. PRINT Total
+  9. END
+  
+ ##### Sources 
+  
+[CoreCode](https://github.com/corecodeio/devguide-from-scratch-2022-02/tree/main/src/technologies/2022/week01/exercises/e00/desc).
+[Programiz](https://www.programiz.com/dsa/algorithm). 
+  
+ 
+# Birthday Matrix
+
+`Date of birth:` 16/12/1997
+  
+## Matrix
+  
+- 2^0 = 1
+- 2^1 = 2
+- 2^2 = 4
+- 2^3 = 8
+- 2^4 = 16
+- 2^5 = 32
+- 2^6 = 64
+- 2^7 = 128
+- 2^8 = 256
+- 2^9 = 512
+- 2^10 = 1024
+  
+|2^10|	2^9|	2^8|	2^7|	2^6|	2^5|	2^4|	2^3|	2^2|	2^1|	2^0|
+|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|1	 |1	   |	1  |	1	 |1    |	0	 |0	   |1	   |1    |	0  |  1  |
+  
+`Decimal:` 1995 Binary: 11111001101 
+            12  Binary: 1100
+            16  Binary: 1000
+
+`Binary Birthday:` 1000/ 1100 / 11111001101 
+  
+  
